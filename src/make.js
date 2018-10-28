@@ -2,7 +2,7 @@ make(15)(34, 21, 666)(41)(sum);
 function sum(a, b) {
     return a + b;
 }
-function make(firstValue) {
+module.exports = function make(firstValue) {
     return function (secondValue, thirdValue, fourthValue) {
         return function (fifthValue) {
             return function (sum) {

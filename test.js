@@ -32,3 +32,10 @@ describe('Check an array', () => {
     assert.equal(JSON.stringify(sumOfOther([2, 2, 2, 2])), JSON.stringify([6, 6, 6, 6]));
   });
 });
+const make = require('./src/make');
+const sum = require('./src/make');
+describe('Check the sum', () => {
+  it('1', () => {
+    assert.equal(make(15)(34, 21, 666)(41)(sum), 777);
+  });
+});
