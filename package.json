@@ -1,0 +1,27 @@
+{
+  "name": "rsschool-codejam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fyr-fyrrr/rsschool-codejam.git"
+  },
+  "author": "Alena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fyr-fyrrr/rsschool-codejam/issues"
+  },
+  "homepage": "https://github.com/fyr-fyrrr/rsschool-codejam#readme"
+}
